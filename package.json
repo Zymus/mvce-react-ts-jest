@@ -1,0 +1,12 @@
+{
+  "name": "wip",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "ts-node": "^10.9.1"
+  }
+}
