@@ -1,6 +1,6 @@
-const helloWorld = require('./helloWorld');
+var helloWorld = require('./helloWorld');
 
-test("helloWorld", () => {
-    let value = helloWorld();
-    expect(value).toBe("helloWorld");
+test("helloWorld", function () {
+  var value = helloWorld();
+  expect(value).toBe("helloWorld");
 });

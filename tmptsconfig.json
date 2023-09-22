@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+        "module": "System"
+    },
+    "include": ["src/**.ts", "src/helloWorld.js"],
+    "exclude": ["node_modules/**"]
+}
