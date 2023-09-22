@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "isolatedModules": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "target": "ESNext",
+        "jsx": "react-jsx"
+    },
+    "include": ["src/**.ts", "src/helloWorld.tsx"],
+    "exclude": ["node_modules/**"]
+}
