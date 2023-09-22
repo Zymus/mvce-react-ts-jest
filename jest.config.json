@@ -1,9 +1,9 @@
 {
-  "clearMocks": true,
-  "collectCoverage": true,
-  "coverageDirectory": "../coverage",
-  "preset": "ts-jest",
-  "rootDir": "src",
-  "testEnvironment": "jsdom",
-  "verbose": true
+    "clearMocks": true,
+    "collectCoverage": true,
+    "coverageDirectory": "../coverage",
+    "preset": "ts-jest",
+    "rootDir": "src",
+    "testEnvironment": "jsdom",
+    "verbose": true
 }
