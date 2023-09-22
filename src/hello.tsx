@@ -22,7 +22,7 @@ export const Hello = (props: HelloProps): JSX.Element => {
 
                 setState({ ...state, name, canSubmit });
             }}/>
-            <button type="submit" onClick={() => setState({
+            <button type="button" onClick={() => setState({
                 ...state,
                 output: `${props.greeting ?? "hello"} ${state.name}`
             })} disabled={!state.canSubmit}>Say {props.greeting ?? "hello"}</button>

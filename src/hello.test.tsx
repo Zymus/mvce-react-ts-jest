@@ -10,6 +10,16 @@ test("default button text is 'Say hello'", () => {
   expect(screen.getByRole("button")).toHaveTextContent("Say hello");
 });
 
+test("textbox is initially empty", () => {
+  render(<Hello />);
+  expect(screen.getByRole("textbox")).toHaveTextContent("");
+});
+
+test("heading is initially absent", () => {
+  render(<Hello />);
+  expect(screen.queryByRole("heading")).toBeNull();
+});
+
 test("the greeting is reflected in the button text", () => {
   render(<Hello greeting="hola" />);
   expect(screen.getByRole("button")).toHaveTextContent("Say hola");
